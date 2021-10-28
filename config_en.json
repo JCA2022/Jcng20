@@ -273,7 +273,7 @@
       "hidePrice":false,
       "featured":false,
       "showHeart":false,
-      "showCartButton":true,
+      "showCartButton":false,
       "cartIconRadius":9.0,
       "showQuantity":false,
       "showCartIconColor":false,
@@ -301,7 +301,7 @@
       "hidePrice":false,
       "featured":false,
       "showHeart":false,
-      "showCartButton":true,
+      "showCartButton":false,
       "cartIconRadius":9.0,
       "showQuantity":false,
       "showCartIconColor":false,
@@ -309,24 +309,7 @@
       "enableBottomAddToCart":false,
       "tag":null
     },
-    {
-      "marginRight":0,
-      "height":0.02,
-      "marginBottom":0,
-      "isSlider":false,
-      "fit":"fitWidth",
-      "marginLeft":0,
-      "layout":"bannerImage",
-      "marginTop":10,
-      "items":[
-        {
-          "image":"https://julunga.com/wp-content/uploads/2021/09/Divider-grey-F.jpg",
-          "radius":0,
-          "category":"-1",
-          "padding":0
-        }
-      ]
-    },
+
     {
       "name":"Recently Visited",
       "layout":"recentView",
@@ -350,10 +333,30 @@
       "cartIconRadius":9.0,
       "showQuantity":false,
       "showCartIconColor":false,
-      "showCartIcon":true,
+      "showCartIcon":false,
       "enableBottomAddToCart":false,
       "tag":null
     },
+
+    {
+      "marginRight":0,
+      "height":0.02,
+      "marginBottom":0,
+      "isSlider":false,
+      "fit":"fitWidth",
+      "marginLeft":0,
+      "layout":"bannerImage",
+      "marginTop":10,
+      "items":[
+        {
+          "image":"https://julunga.com/wp-content/uploads/2021/09/Divider-grey-F.jpg",
+          "radius":0,
+          "category":"-1",
+          "padding":0
+        }
+      ]
+    },
+    
     {
       "marginBottom":0,
       "height":0.08,
