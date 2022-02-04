@@ -1,316 +1,308 @@
 {
   "HorizonLayout":[
     {
-      "layout":"logo",
-      "showMenu":true,
-      "showSearch":true,
-      "showLogo":true,
       "menuIcon":{
-        "name":"menu_open",
-        "fontFamily":"MaterialIcons"}
+        "name":"menu_outlined",
+        "fontFamily":"MaterialIcons"
+      },
+      "showSearch":true,
+      "showCart":false,
+      "showMenu":true,
+      "layout":"logo",
+      "showLogo":true,
+      "showNotification":false
     },
     {
+      "design":"static",
+      "marginRight":5,
+      "marginTop":0,
+      "fit":"fitWidth",
       "layout":"bannerImage",
-      "isSlider":false,
-      "autoPlay":false,
-      "showNumber":false,
-      "design":"default",
-      "showBackGround":false,
-      "radius":2.0,
       "items":[
         {
-          "image":"https://julunga.com/wp-content/uploads/2021/07/banner2-for-mobile.jpg",
-          "padding":5.0
+          "showSubcategory":false,
+          "image":"https://julunga.com/wp-content/uploads/2021/07/banner2-for-mobile-medium.jpg",
+          "padding":0
         }
-      ]
+      ],
+      "marginBottom":0,
+      "marginLeft":5
     },
     {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":10.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.05,
-      "fit":"cover",
+      "design":"static",
+      "marginTop":0,
       "items":[
         {
-          "category":"-1",
           "padding":0,
-          "radius":0,
+          "showSubcategory":false,
           "image":"https://julunga.com/wp-content/uploads/2021/06/SBC-F.png"
         }
-      ]
+      ],
+      "marginRight":0,
+      "height":0.08,
+      "marginBottom":0,
+      "marginLeft":0,
+      "fit":"fitWidth",
+      "layout":"bannerImage"
     },
     {
+      "design":"static",
       "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.3,
+      "items":[
+        {
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-7-medium.jpg",
+          "category":"1433",
+          "padding":5,
+          "radius":20,
+          "showSubcategory":false
+        },
+        {
+          "showSubcategory":false,
+          "padding":5,
+          "category":"1434",
+          "radius":20,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-5-medium.jpg"
+        }
+      ],
+      "marginLeft":0,
+      "marginBottom":0,
+      "marginRight":0,
+      "fit":"fitWidth",
+      "marginTop":0
+    },
+    {
+      "marginLeft":0,
+      "design":"static",
+      "layout":"bannerImage",
+      "marginTop":0,
+      "marginRight":0,
+      "items":[
+        {
+          "padding":5,
+          "showSubcategory":false,
+          "category":"1440",
+          "radius":20,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-8-medium.jpg"
+        },
+        {
+          "showSubcategory":false,
+          "category":"7653",
+          "padding":5,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-6-medium.jpg",
+          "radius":20
+        }
+      ],
+      "marginBottom":0,
+      "fit":"fitWidth"
+    },
+    {
+      "marginRight":0,
+      "layout":"bannerImage",
+      "marginTop":0,
       "fit":"fitWidth",
       "items":[
         {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-7.jpg",
-          "radius":15,
-          "category":"1433"
+          "showSubcategory":false,
+          "padding":5,
+          "radius":20,
+          "category":"1437",
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-11-medium.jpg"
         },
         {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-5.jpg",
-          "radius":15,
-          "category":"1434"
+          "radius":20,
+          "padding":5,
+          "category":"1435",
+          "showSubcategory":false,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-2-medium.jpg"
+        }
+      ],
+      "marginBottom":0,
+      "design":"static",
+      "marginLeft":0
+    },
+    {
+      "marginTop":0,
+      "layout":"bannerImage",
+      "marginRight":0,
+      "items":[
+        {
+          "radius":20,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-1-medium.jpg",
+          "padding":5,
+          "category":"1436",
+          "showSubcategory":false
+        },
+        {
+          "radius":20,
+          "padding":5,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-4-medium.jpg",
+          "category":"2760",
+          "showSubcategory":false
+        }
+      ],
+      "marginLeft":0,
+      "fit":"fitWidth",
+      "marginBottom":0,
+      "design":"static"
+    },
+    {
+      "fit":"fitWidth",
+      "marginTop":0,
+      "marginBottom":10,
+      "marginLeft":0,
+      "marginRight":0,
+      "items":[
+        {
+          "padding":5,
+          "radius":20,
+          "showSubcategory":false,
+          "category":"1439",
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-9-medium.jpg"
+        },
+        {
+          "radius":20,
+          "showSubcategory":false,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-10-medium.jpg",
+          "category":"1438",
+          "padding":5
+        }
+      ],
+      "design":"static",
+      "layout":"bannerImage"
+    },
+    {
+      "endIndent":0,
+      "indent":0,
+      "thickness":6,
+      "color":"cde0e0e0",
+      "layout":"divider"
+    },
+    {
+      "height":0.1,
+      "fit":"fitWidth",
+      "items":[
+        {
+          "showSubcategory":false,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/Easy-R-medium.png",
+          "padding":0
+        }
+      ],
+      "marginLeft":0,
+      "layout":"bannerImage",
+      "design":"static",
+      "marginTop":0,
+      "marginRight":0,
+      "marginBottom":0
+    },
+    {
+      "marginBottom":0,
+      "design":"static",
+      "marginLeft":0,
+      "fit":"fitWidth",
+      "layout":"bannerImage",
+      "height":0.1,
+      "marginRight":0,
+      "marginTop":0,
+      "items":[
+        {
+          "image":"https://julunga.com/wp-content/uploads/2021/10/Multiple-Payment-medium.png",
+          "padding":0,
+          "showSubcategory":false
         }
       ]
     },
     {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.3,
-      "fit":"fitWidth",
-      "items":[
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-8.jpg",
-          "radius":15,
-          "category":"1440"
-        },
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-6.jpg",
-          "radius":15,
-          "category":"3853"
-        }
-      ]
-    },
-    {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.3,
-      "fit":"fitWidth",
-      "items":[
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-11.jpg",
-          "radius":15,
-          "category":"1437"
-        },
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-2.jpg",
-          "radius":15,
-          "category":"1435"
-        }
-      ]
-    },
-    {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.3,
-      "fit":"fitWidth",
-      "items":[
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-1.jpg",
-          "radius":15,
-          "category":"1436"
-        },
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-4.jpg",
-          "radius":15,
-          "category":"2760"
-        }
-      ]
-    },
-    {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.3,
-      "fit":"fitWidth",
-      "items":[
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-9.jpg",
-          "radius":15,
-          "category":"1439"
-        },
-        {
-          "padding":5.0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-10.jpg",
-          "radius":15,
-          "category":"1438"
-        }
-      ]
-    },
-    {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.04,
-      "fit":"cover",
+      "marginTop":0,
+      "design":"static",
+      "height":0.1,
       "items":[
         {
           "padding":0,
-          "radius":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/09/Divider-grey-F.jpg",
-          "category":null
+          "showSubcategory":false,
+          "image":"https://julunga.com/wp-content/uploads/2021/10/Well-Trained-Delivery-medium.png"
         }
-      ]
-    },
-
-
-    {
+      ],
+      "marginLeft":0,
+      "marginBottom":0,
       "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":2.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.1,
-      "fit":"cover",
-      "items":[
-        {
-          "padding":0.0,
-          "radius":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/Easy-R.png",
-          "category":null
-        }
-      ]
+      "fit":"fitWidth",
+      "marginRight":0
     },
     {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":2.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.1,
-      "fit":"cover",
-      "items":[
-        {
-          "padding":0.0,
-          "radius":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/Multiple-Payment-medium.png",
-          "category":null
-        }
-      ]
+      "color":"cde0e0e0",
+      "layout":"divider",
+      "indent":0,
+      "endIndent":0,
+      "thickness":6
     },
     {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":2.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.1,
-      "fit":"cover",
-      "items":[
-        {
-          "padding":0.0,
-          "radius":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/Well-Trained-Delivery-medium.png",
-          "category":null
-        }
-      ]
-    },
-    {
-      "layout":"bannerImage",
-      "isSlider":false,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "height":0.05,
-      "fit":"cover",
-      "items":[
-        {
-          "padding":0.0,
-          "radius":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/09/Divider-grey-F-medium.jpg",
-          "category":null
-        }
-      ]
+      "showCartIconColor":false,
+      "backgroundWidthMode":true,
+      "hidePrice":false,
+      "enableRating":true,
+      "imageBoxfit":"fill",
+      "hideStore":false,
+      "showCartButtonWithQuantity":false,
+      "columns":3,
+      "borderRadius":3,
+      "imageRatio":1.2,
+      "backgroundRadius":100,
+      "backgroundHeight":250,
+      "limit":20,
+      "name":"New Arrivals",
+      "cardDesign":"card",
+      "showQuantity":false,
+      "hPadding":0,
+      "showStockStatus":true,
+      "cartIconRadius":9,
+      "enableBottomAddToCart":false,
+      "rows":1,
+      "showCartButton":true,
+      "hideTitle":false,
+      "orderby":"date",
+      "isSnapping":false,
+      "hMargin":6,
+      "showCartIcon":false,
+      "layout":"threeColumn",
+      "vPadding":0,
+      "vMargin":0,
+      "showHeart":false
     },
     {
       "name":"Hand Picked Offers",
-      "layout":"twoColumn",
+      "layout":"threeColumn",
       "isSnapping":false,
       "rows":1,
-      "columns":0,
-      "imageBoxfit":"cover",
+      "columns":3,
+      "imageBoxfit":"fill",
       "imageRatio":1.2,
-      "hMargin":0.0,
+      "hMargin":6.0,
       "vMargin":0.0,
       "hPadding":0.0,
       "vPadding":0.0,
-      "showStockStatus":false,
-      "enableRating":false,
+      "showStockStatus":true,
+      "enableRating":true,
       "hideTitle":false,
       "hideStore":false,
       "hidePrice":false,
-      "featured":false,
       "showHeart":false,
-      "showCartButton":false,
+      "showCartButton":true,
       "cartIconRadius":9.0,
       "showQuantity":false,
       "showCartIconColor":false,
       "showCartIcon":false,
       "enableBottomAddToCart":false,
+      "cardDesign":"card",
+      "borderRadius":3.0,
+      "backgroundRadius":100.0,
+      "showCartButtonWithQuantity":false,
+      "orderby":"popularity",
+      "limit":20,
       "onSale":true,
-      "tag":null
+      "backgroundWidthMode":true,
+      "backgroundHeight":250
     },
-    {
-      "name":"New Arrivals",
-      "layout":"twoColumn",
-      "isSnapping":false,
-      "rows":1,
-      "columns":0,
-      "imageBoxfit":"cover",
-      "imageRatio":1.2,
-      "hMargin":0.0,
-      "vMargin":0.0,
-      "hPadding":0.0,
-      "vPadding":0.0,
-      "showStockStatus":false,
-      "enableRating":false,
-      "hideTitle":false,
-      "hideStore":false,
-      "hidePrice":false,
-      "featured":false,
-      "showHeart":false,
-      "showCartButton":false,
-      "cartIconRadius":9.0,
-      "showQuantity":false,
-      "showCartIconColor":false,
-      "showCartIcon":false,
-      "enableBottomAddToCart":false,
-      "tag":null
-    },
-
-    {
+   {
       "name":"Recently Visited",
       "layout":"recentView",
       "isSnapping":false,
@@ -337,207 +329,141 @@
       "enableBottomAddToCart":false,
       "tag":null
     },
-
     {
-      "marginRight":0,
-      "height":0.02,
-      "marginBottom":0,
-      "isSlider":false,
+      "color":"cde0e0e0",
+      "thickness":6,
+      "layout":"divider",
+      "endIndent":0,
+      "indent":0
+    },
+    {
       "fit":"fitWidth",
-      "marginLeft":0,
+      "marginRight":0,
+      "height":0.08,
+      "marginTop":0,
+      "design":"static",
+      "marginBottom":0,
       "layout":"bannerImage",
-      "marginTop":10,
+      "marginLeft":0,
       "items":[
         {
-          "image":"https://julunga.com/wp-content/uploads/2021/09/Divider-grey-F.jpg",
-          "radius":0,
-          "category":"-1",
-          "padding":0
+          "showSubcategory":false,
+          "padding":0,
+          "image":"https://julunga.com/wp-content/uploads/2021/07/Payment-Icons-Mobile.png"
         }
       ]
-    },
-    
-    {
-      "marginBottom":0,
-      "height":0.08,
-      "isSlider":false,
-      "fit":"fitWidth",
-      "marginRight":0,
-      "marginTop":0,
-      "marginLeft":0,
-      "items":[
-        {
-          "padding":0,
-          "image":"https://julunga.com/wp-content/uploads/2021/07/Payment-Icons-Mobile.png",
-          "category":null
-        }
-      ],
-      "layout":"bannerImage"
     }
   ],
   "Setting":{
-    "ProductDetail":"simpleType",
-    "ProductListLayout":"list",
-    "FontHeader":"Lato",
-    "MainColor":"ff13e51c",
-    "ShowChat":true,
+    "FontFamily":"Lato",
     "TabBarConfig":{
-      "isSafeArea":true,
-      "color":"ff13e",
-      "colorCart":"ff1e1e1e",
-      "colorIcon":"ff696969",
-      "colorActiveIcon":"ff13e51c",
-      "iconSize":22,
+      "paddingLeft":0,
+      "paddingBottom":0,
       "indicatorStyle":"material",
       "showFloatingClip":true,
-      "showFloating":false,
-      "radiusTopLeft":0.0,
-      "radiusTopRight":0.0,
-      "radiusBottomLeft":0.0,
-      "radiusBottomRight":0.0,
-      "paddingLeft":0.0,
-      "paddingRight":0.0,
-      "paddingBottom":5.5,
-      "paddingTop":0.0,
-      "marginTop":0.0,
-      "marginBottom":0.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
+      "colorActiveIcon":null,
+      "colorCart":"ff000000",
+      "marginBottom":0,
+      "radiusTopLeft":0,
+      "paddingTop":0,
+      "isSafeArea":true,
+      "radiusBottomLeft":0,
+      "color":null,
+      "radiusTopRight":0,
       "TabBarIndicator":{
-        "height":1.2,
-        "tabPosition":"bottom",
-        "topRightRadius":null,
-        "topLeftRadius":null,
-        "bottomRightRadius":null,
-        "bottomLeftRadius":null,
-        "color":"ff0b8911",
-        "horizontalPadding":0.0,
-        "verticalPadding":null,
-        "strokeWidth":null,
-        "radius":null,
         "distanceFromCenter":null,
-        "paintingStyle":"fill"
+        "radius":null,
+        "topRightRadius":null,
+        "paintingStyle":"fill",
+        "topLeftRadius":null,
+        "horizontalPadding":null,
+        "bottomLeftRadius":null,
+        "strokeWidth":null,
+        "bottomRightRadius":null,
+        "color":"ff292929",
+        "tabPosition":"bottom",
+        "height":2,
+        "verticalPadding":null
       },
+      "boxShadow":{
+        "y":0,
+        "x":0,
+        "blurRadius":10,
+        "colorOpacity":0.2,
+        "spreadRadius":10
+      },
+      "radiusBottomRight":0,
+      "marginLeft":0,
+      "marginTop":0,
       "TabBarFloating":{
         "position":0,
+        "location":null,
         "radius":null,
         "color":null,
-        "location":null,
         "width":null,
         "height":null,
-        "elevation":null,
-        "floatingType":"rectangle"}
+        "floatingType":"rectangle",
+        "elevation":null
+      },
+      "colorIcon":null,
+      "showFloating":false,
+      "iconSize":24,
+      "marginRight":0,
+      "paddingRight":0,
+      "enable":true
     },
-    "FontFamily":"Lato",
-    "StickyHeader":true
+    "ShowChat":true,
+    "StickyHeader":false,
+    "ProductListLayout":"list",
+    "MainColor":"ff13e51c",
+    "FontHeader":"Lato"
   },
   "TabBar":[
     {
-      "key":"lo8bvqvsuc",
-      "layout":"home",
-      "icon":"home",
       "fontFamily":"CupertinoIcons",
       "label":"Home",
-      "pos":100
+      "icon":"home",
+      "pos":100,
+      "layout":"home",
+      "key":"8xed3kuoi5"
     },
     {
-      "key":"lo8bvqvsuc",
+      "categories":null,
       "layout":"category",
-      "icon":"dns_outlined",
+      "images":null,
       "fontFamily":"MaterialIcons",
       "label":"Categories",
       "pos":200,
       "categoryLayout":"card",
-      "categories":["2760",
-        "1436",
-        "1435",
-        "1434",
-        "1433",
-        "1440",
-        "3853",
-        "1439",
-        "1437",
-        "1438"],
-      "images":null
+      "icon":"dns_outlined",
+      "key":"8xed3kuoi5"
     },
     {
-      "layout":"profile",
-      "icon":"assets/icons/tabs/icon-user.png",
-      "fontFamily":null,
-      "label":"Account",
       "pos":300,
+      "layout":"profile",
+      "icon":"person",
+      "label":"My Accunt",
+      "fontFamily":"CupertinoIcons",
       "settings":["order",
         "wishlist",
         "rating",
-        "web-42e30646lx",
+        "about",
         "privacy"],
       "background":null,
-      "subGeneralSetting":{
-        "web-42e30646lx":{
-          "webUrl":"https://julunga.com/faq-for-app/",
-          "webViewMode":true,
-          "requiredLogin":false,
-          "icon":"library_books_outlined",
-          "iconFontFamily":"MaterialIcons",
-          "title":"FAQ"}
-      },
-      "key":"lo8bvqvsuc"
+      "key":"8xed3kuoi5"
     },
     {
       "layout":"cart",
-      "icon":"assets/icons/tabs/icon-cart2.png",
-      "fontFamily":null,
-      "label":"Cart",
+      "fontFamily":"CupertinoIcons",
       "pos":400,
-      "key":"lo8bvqvsuc"
+      "label":" Cart  ",
+      "icon":"shopping_cart",
+      "key":"8xed3kuoi5"
     }
   ],
   "Drawer":{
-    "logo":null,
-    "subDrawerItem":{
-      "post-8xa8thdbsc":{
-        "pageId":32607,
-        "title":"FAQ",
-        "icon":"chrome_reader_mode_outlined",
-        "iconFontFamily":"MaterialIcons"
-      },
-      "title-kyr3ljula1":{
-        "title":"Need Help ?",
-        "enableDivider":false,
-        "fontSize":20.0,
-        "titleColor":null,
-        "verticalPadding":{
-          "x":5.0,
-          "y":5.0}
-      },
-      "title-vu299qmh9n":{
-        "title":"GSTN 18CACPB2961B1Z9",
-        "enableDivider":true,
-        "fontSize":10.0,
-        "titleColor":null,
-        "verticalPadding":{
-          "x":5.0,
-          "y":5.0}
-      },
-      "title-ttp78wvv8b":{
-        "title":"FSSAI 10321999000056",
-        "enableDivider":false,
-        "fontSize":10.0,
-        "titleColor":null,
-        "verticalPadding":{
-          "x":5.0,
-          "y":5.0}
-      },
-      "title-w7si0ruebj":{
-        "title":" ",
-        "enableDivider":true,
-        "fontSize":14.0,
-        "titleColor":null,
-        "verticalPadding":{
-          "x":0.0,
-          "y":0.0}}
-    },
-    "key":"jua6ruavcs",
+    "key":"3s43wo0187",
+    "filter":1,
     "items":[
       {
         "type":"home",
@@ -560,11 +486,7 @@
         "show":true
       },
       {
-        "type":"title-kyr3ljula1",
-        "show":true
-      },
-      {
-        "type":"title-w7si0ruebj",
+        "type":"title-s77l0v4ao9",
         "show":true
       },
       {
@@ -604,13 +526,164 @@
         "show":false
       },
       {
-        "type":"title-vu299qmh9n",
+        "type":"title-tafgbpdb8b",
         "show":true
       },
       {
-        "type":"title-ttp78wvv8b",
+        "type":"title-pykvnr8xv9",
+        "show":true
+      },
+      {
+        "type":"title-k1bpqfqxsr",
         "show":true
       }
-    ]
+    ],
+    "subDrawerItem":{
+      "title-pykvnr8xv9":{
+        "fontSize":9,
+        "titleColor":null,
+        "enableDivider":false,
+        "title":"GSTIN 18CACPB2961B1Z9",
+        "verticalPadding":{
+          "x":0,
+          "y":0}
+      },
+      "title-s77l0v4ao9":{
+        "fontSize":null,
+        "titleColor":null,
+        "verticalPadding":{
+          "x":0,
+          "y":0
+        },
+        "enableDivider":true,
+        "title":""
+      },
+      "title-k1bpqfqxsr":{
+        "fontSize":9,
+        "titleColor":null,
+        "title":"FSSAI 10321999000056",
+        "verticalPadding":{
+          "x":0,
+          "y":0
+        },
+        "enableDivider":false
+      },
+      "title-tafgbpdb8b":{
+        "fontSize":null,
+        "titleColor":null,
+        "enableDivider":true,
+        "verticalPadding":{
+          "y":0,
+          "x":0
+        },
+        "title":""}
+    },
+    "logoConfig":{
+      "height":100.0,
+      "marginLeft":5,
+      "marginRight":0,
+      "marginTop":50,
+      "marginBottom":10,
+      "boxFit":"cover"
+    },
+    "logo":"https://julunga.com/wp-content/uploads/2020/12/Julunga-Logo-For-App-medium.png"
   },
-  "AppBar":{}}
+  "AppBar":{
+    "showOnScreens":[],
+    "items":[
+      {
+        "fontSize":16,
+        "marginLeft":16,
+        "action":"menu",
+        "backgroundColor":"a000000",
+        "paddingBottom":4,
+        "paddingRight":4,
+        "iconSize":20,
+        "marginRight":4,
+        "paddingLeft":4,
+        "icon":"equal",
+        "size":40,
+        "radius":20,
+        "paddingTop":4,
+        "type":"icon",
+        "key":"8g31nfb3x2",
+        "marginBottom":4,
+        "fontWeight":"400",
+        "alignment":"center",
+        "marginTop":4,
+        "pos":100,
+        "fontFamily":"CupertinoIcons",
+        "textOpacity":0.5
+      },
+      {
+        "fontWeight":"400",
+        "paddingBottom":4,
+        "marginRight":4,
+        "fontFamily":"CupertinoIcons",
+        "paddingRight":4,
+        "marginBottom":4,
+        "paddingTop":4,
+        "size":44,
+        "icon":"person",
+        "key":"5irxv743jc",
+        "iconSize":24,
+        "radius":24,
+        "action":"none",
+        "marginTop":4,
+        "alignment":"center",
+        "type":"space",
+        "fontSize":16,
+        "pos":200,
+        "paddingLeft":4,
+        "marginLeft":4,
+        "textOpacity":0.5
+      },
+      {
+        "fontFamily":"CupertinoIcons",
+        "marginRight":4,
+        "paddingTop":4,
+        "iconSize":20,
+        "textOpacity":0.5,
+        "pos":400,
+        "marginTop":4,
+        "paddingLeft":4,
+        "radius":20,
+        "paddingBottom":4,
+        "marginBottom":4,
+        "marginLeft":4,
+        "type":"icon",
+        "size":40,
+        "fontSize":16,
+        "action":"search",
+        "fontWeight":"400",
+        "key":"9c4x46fa8w",
+        "paddingRight":4,
+        "backgroundColor":"a000000",
+        "alignment":"center",
+        "icon":"search"
+      },
+      {
+        "action":"cart",
+        "iconSize":20,
+        "fontWeight":"400",
+        "size":40,
+        "key":"zektpgnari",
+        "alignment":"center",
+        "type":"icon",
+        "marginBottom":4,
+        "fontSize":16,
+        "pos":500,
+        "fontFamily":"CupertinoIcons",
+        "textOpacity":0.5,
+        "paddingBottom":4,
+        "radius":20,
+        "paddingTop":4,
+        "marginLeft":4,
+        "paddingRight":4,
+        "backgroundColor":"a000000",
+        "marginTop":4,
+        "paddingLeft":4,
+        "icon":"shopping_cart",
+        "marginRight":16
+      }
+    ]}}
