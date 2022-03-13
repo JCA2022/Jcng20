@@ -113,6 +113,13 @@
       "marginTop":0.0
     },
     {
+      "endIndent":0,
+      "indent":0,
+      "thickness":6,
+      "color":"cde0e0e0",
+      "layout":"divider"
+    },
+    {
       "height":0.1,
       "fit":"fitWidth",
       "items":[
@@ -294,10 +301,7 @@
     }
   ],
   "Setting":{
-    "MainColor":"ff37d73e",
-    "StickyHeader":false,
-    "ShowChat":true,
-    "ProductListLayout":"list",
+    "FontFamily":"Lato",
     "TabBarConfig":{
       "paddingLeft":0,
       "paddingBottom":0,
@@ -354,8 +358,11 @@
       "paddingRight":0,
       "enable":true
     },
-    "FontHeader":"Lato",
-    "FontFamily":"Lato"
+    "ShowChat":true,
+    "StickyHeader":false,
+    "ProductListLayout":"list",
+    "MainColor":"ff37d73e",
+    "FontHeader":"Lato"
   },
   "TabBar":[
     {
@@ -364,7 +371,7 @@
       "icon":"home",
       "pos":100,
       "layout":"home",
-      "key":"5ourx53w1c"
+      "key":"8xed3kuoi5"
     },
     {
       "categories":null,
@@ -375,7 +382,7 @@
       "pos":200,
       "categoryLayout":"card",
       "icon":"dns_outlined",
-      "key":"5ourx53w1c"
+      "key":"8xed3kuoi5"
     },
     {
       "pos":300,
@@ -389,7 +396,7 @@
         "about",
         "privacy"],
       "background":null,
-      "key":"5ourx53w1c"
+      "key":"8xed3kuoi5"
     },
     {
       "layout":"cart",
@@ -397,10 +404,12 @@
       "pos":400,
       "label":" Cart  ",
       "icon":"shopping_cart",
-      "key":"5ourx53w1c"
+      "key":"8xed3kuoi5"
     }
   ],
   "Drawer":{
+    "key":"3s43wo0187",
+    "filter":1,
     "items":[
       {
         "type":"home",
@@ -475,7 +484,6 @@
         "show":true
       }
     ],
-    "key":"3s43wo0187",
     "subDrawerItem":{
       "title-pykvnr8xv9":{
         "fontSize":9,
@@ -516,15 +524,15 @@
         },
         "title":""}
     },
-    "filter":1,
-    "logo":"https://julunga.com/wp-content/uploads/2020/12/Julunga-Logo-For-App-medium.png",
     "logoConfig":{
       "height":100.0,
       "marginLeft":5,
       "marginRight":0,
       "marginTop":50,
       "marginBottom":10,
-      "boxFit":"cover"}
+      "boxFit":"cover"
+    },
+    "logo":"https://julunga.com/wp-content/uploads/2020/12/Julunga-Logo-For-App-medium.png"
   },
   "AppBar":{
     "showOnScreens":[],
