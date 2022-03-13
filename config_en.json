@@ -13,6 +13,30 @@
       "showNotification":false
     },
     {
+      "isSafeArea":false,
+      "showSearch":false,
+      "usePrimaryColor":true,
+      "borderInput":false,
+      "title":"Groceries are unavailable till 14th March (Monday)",
+      "backgroundColor":"ff46514a",
+      "textColor":"ffe3f2fd",
+      "alignment":"centerLeft",
+      "fontWeight":400,
+      "fontSize":20.0,
+      "textOpacity":1.0,
+      "marginLeft":0.0,
+      "marginRight":0.0,
+      "marginBottom":5.0,
+      "marginTop":2.0,
+      "paddingLeft":5.0,
+      "paddingRight":5.0,
+      "paddingTop":0.0,
+      "paddingBottom":0.0,
+      "height":44.0,
+      "rotate":[],
+      "layout":"header_text"
+    },
+    {
       "design":"static",
       "marginRight":5,
       "marginTop":0,
@@ -46,136 +70,47 @@
       "layout":"bannerImage"
     },
     {
-      "design":"static",
       "layout":"bannerImage",
-      "items":[
-        {
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-7-medium.jpg",
-          "category":"1433",
-          "padding":5,
-          "radius":20,
-          "showSubcategory":false
-        },
-        {
-          "showSubcategory":false,
-          "padding":5,
-          "category":"1434",
-          "radius":20,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-5-medium.jpg"
-        }
-      ],
-      "marginLeft":0,
-      "marginBottom":0,
-      "marginRight":0,
-      "fit":"fitWidth",
-      "marginTop":0
-    },
-    {
-      "marginLeft":0,
       "design":"static",
-      "layout":"bannerImage",
-      "marginTop":0,
-      "marginRight":0,
+      "fit":"fitWidth",
+      "marginLeft":0.0,
       "items":[
         {
-          "padding":5,
+          "image":"https://julunga.com/wp-content/uploads/2022/03/fresh-meatsfor-j20-f-f.jpg",
           "showSubcategory":false,
-          "category":"1440",
-          "radius":20,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-8-medium.jpg"
-        },
-        {
-          "showSubcategory":false,
-          "category":"7653",
-          "padding":5,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-6-medium.jpg",
-          "radius":20
+          "padding":5.0,
+          "category":"7883"
         }
       ],
-      "marginBottom":0,
-      "fit":"fitWidth"
+      "marginBottom":0.0,
+      "height":0.38,
+      "marginRight":0.0,
+      "marginTop":0.0
     },
     {
-      "marginRight":0,
       "layout":"bannerImage",
-      "marginTop":0,
-      "fit":"fitWidth",
-      "items":[
-        {
-          "showSubcategory":false,
-          "padding":5,
-          "radius":20,
-          "category":"1437",
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-11-medium.jpg"
-        },
-        {
-          "radius":20,
-          "padding":5,
-          "category":"1435",
-          "showSubcategory":false,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-2-medium.jpg"
-        }
-      ],
-      "marginBottom":0,
       "design":"static",
-      "marginLeft":0
-    },
-    {
-      "marginTop":0,
-      "layout":"bannerImage",
-      "marginRight":0,
+      "fit":"fitWidth",
+      "marginLeft":0.0,
       "items":[
         {
-          "radius":20,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-1-medium.jpg",
-          "padding":5,
-          "category":"1436",
-          "showSubcategory":false
+          "image":"https://julunga.com/wp-content/uploads/2022/03/fresh-vegetables-for-j20-f-f-f.jpg",
+          "padding":5.0,
+          "radius":0.0,
+          "showSubcategory":false,
+          "category":"1440"
         },
         {
-          "radius":20,
-          "padding":5,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-4-medium.jpg",
-          "category":"2760",
-          "showSubcategory":false
+          "showSubcategory":false,
+          "padding":5.0,
+          "radius":0.0,
+          "image":"https://julunga.com/wp-content/uploads/2022/03/fresh-fruits-for-j20-f-f.jpg",
+          "category":"7653"
         }
       ],
-      "marginLeft":0,
-      "fit":"fitWidth",
-      "marginBottom":0,
-      "design":"static"
-    },
-    {
-      "fit":"fitWidth",
-      "marginTop":0,
-      "marginBottom":10,
-      "marginLeft":0,
-      "marginRight":0,
-      "items":[
-        {
-          "padding":5,
-          "radius":20,
-          "showSubcategory":false,
-          "category":"1439",
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-9-medium.jpg"
-        },
-        {
-          "radius":20,
-          "showSubcategory":false,
-          "image":"https://julunga.com/wp-content/uploads/2021/10/B-NEW-C-10-medium.jpg",
-          "category":"1438",
-          "padding":5
-        }
-      ],
-      "design":"static",
-      "layout":"bannerImage"
-    },
-    {
-      "endIndent":0,
-      "indent":0,
-      "thickness":6,
-      "color":"cde0e0e0",
-      "layout":"divider"
+      "marginBottom":0.0,
+      "marginRight":0.0,
+      "marginTop":0.0
     },
     {
       "height":0.1,
@@ -359,7 +294,10 @@
     }
   ],
   "Setting":{
-    "FontFamily":"Lato",
+    "MainColor":"ff37d73e",
+    "StickyHeader":false,
+    "ShowChat":true,
+    "ProductListLayout":"list",
     "TabBarConfig":{
       "paddingLeft":0,
       "paddingBottom":0,
@@ -416,11 +354,8 @@
       "paddingRight":0,
       "enable":true
     },
-    "ShowChat":true,
-    "StickyHeader":false,
-    "ProductListLayout":"list",
-    "MainColor":"ff37d73e",
-    "FontHeader":"Lato"
+    "FontHeader":"Lato",
+    "FontFamily":"Lato"
   },
   "TabBar":[
     {
@@ -429,7 +364,7 @@
       "icon":"home",
       "pos":100,
       "layout":"home",
-      "key":"8xed3kuoi5"
+      "key":"5ourx53w1c"
     },
     {
       "categories":null,
@@ -440,7 +375,7 @@
       "pos":200,
       "categoryLayout":"card",
       "icon":"dns_outlined",
-      "key":"8xed3kuoi5"
+      "key":"5ourx53w1c"
     },
     {
       "pos":300,
@@ -454,7 +389,7 @@
         "about",
         "privacy"],
       "background":null,
-      "key":"8xed3kuoi5"
+      "key":"5ourx53w1c"
     },
     {
       "layout":"cart",
@@ -462,12 +397,10 @@
       "pos":400,
       "label":" Cart  ",
       "icon":"shopping_cart",
-      "key":"8xed3kuoi5"
+      "key":"5ourx53w1c"
     }
   ],
   "Drawer":{
-    "key":"3s43wo0187",
-    "filter":1,
     "items":[
       {
         "type":"home",
@@ -542,6 +475,7 @@
         "show":true
       }
     ],
+    "key":"3s43wo0187",
     "subDrawerItem":{
       "title-pykvnr8xv9":{
         "fontSize":9,
@@ -582,15 +516,15 @@
         },
         "title":""}
     },
+    "filter":1,
+    "logo":"https://julunga.com/wp-content/uploads/2020/12/Julunga-Logo-For-App-medium.png",
     "logoConfig":{
       "height":100.0,
       "marginLeft":5,
       "marginRight":0,
       "marginTop":50,
       "marginBottom":10,
-      "boxFit":"cover"
-    },
-    "logo":"https://julunga.com/wp-content/uploads/2020/12/Julunga-Logo-For-App-medium.png"
+      "boxFit":"cover"}
   },
   "AppBar":{
     "showOnScreens":[],
