@@ -12,30 +12,7 @@
       "showLogo":true,
       "showNotification":false
     },
-    {
-      "isSafeArea":false,
-      "showSearch":false,
-      "usePrimaryColor":true,
-      "borderInput":false,
-      "title":"Groceries are unavailable till 14th March (Monday)",
-      "backgroundColor":"ff46514a",
-      "textColor":"ffe3f2fd",
-      "alignment":"centerLeft",
-      "fontWeight":400,
-      "fontSize":20.0,
-      "textOpacity":1.0,
-      "marginLeft":0.0,
-      "marginRight":0.0,
-      "marginBottom":5.0,
-      "marginTop":2.0,
-      "paddingLeft":5.0,
-      "paddingRight":5.0,
-      "paddingTop":0.0,
-      "paddingBottom":0.0,
-      "height":44.0,
-      "rotate":[],
-      "layout":"header_text"
-    },
+
     {
       "design":"static",
       "marginRight":5,
@@ -69,6 +46,7 @@
       "fit":"fitWidth",
       "layout":"bannerImage"
     },
+
     {
       "layout":"bannerImage",
       "design":"static",
@@ -76,14 +54,21 @@
       "marginLeft":0.0,
       "items":[
         {
-          "image":"https://julunga.com/wp-content/uploads/2022/03/fresh-meatsfor-j20-f-f.jpg",
+          "image":"https://julunga.com/wp-content/uploads/2022/03/essential-groceries-for-j20-f-f-f.jpg",
+          "padding":5.0,
+          "radius":0.0,
+          "showSubcategory":false,
+          "category":"7895"
+        },
+        {
           "showSubcategory":false,
           "padding":5.0,
+          "radius":0.0,
+          "image":"https://julunga.com/wp-content/uploads/2022/03/fresh-meatsfor-j20-f-f.jpg",
           "category":"7883"
         }
       ],
       "marginBottom":0.0,
-      "height":0.38,
       "marginRight":0.0,
       "marginTop":0.0
     },
