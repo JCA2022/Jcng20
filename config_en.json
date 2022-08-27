@@ -6,7 +6,7 @@
         "fontFamily":"MaterialIcons"
       },
       "showSearch":true,
-      "showCart":false,
+      "showCart":true,
       "showMenu":true,
       "layout":"logo",
       "showLogo":true,
